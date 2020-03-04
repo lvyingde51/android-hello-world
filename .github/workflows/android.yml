@@ -18,8 +18,14 @@ jobs:
     - name: ls
       run: ls -l
     - name: hello
-      run: echo hello    
+      run: echo hello  
+    - name: version
+      run: ./gradlew -v
     - name: build
       run: ./gradlew assembleRelease
     - name: ls
       run: ls -l
+    - name: build
+      run: ./gradlew assembleRelease –offline
+    - name: ls
+      run: ls   build
