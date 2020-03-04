@@ -34,5 +34,9 @@ jobs:
     - name: ls
       run: ls   -l  app/build/outputs/apk/
     - name: ls
-      run: ls   -l  build/outpus/apk 
+      run: ls   -l  build/outputs/apk
+    - name: ls
+      run: ls   -l  /app/build/outputs/apk/debug
+    - name: ls
+      run: ls   -l  /app/build/outputs/apk/release 
      
