@@ -25,8 +25,7 @@ jobs:
       run: ./gradlew assembleRelease
     - name: ls
       run: ls -l
-    - name: build
-      run: ./gradlew assembleRelease –offline
+
     - name: ls
       run: ls   build
     - name: ls
