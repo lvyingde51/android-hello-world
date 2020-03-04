@@ -18,4 +18,7 @@ jobs:
     - name: ls
       run: ls -l
     - name: hello
-      run: echo hello
+      run: echo hello    
+    - name: build
+      run: ./gradlew assembleRelease
+      
