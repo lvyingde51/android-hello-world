@@ -25,11 +25,14 @@ jobs:
       run: ./gradlew assembleRelease
     - name: ls
       run: ls -l
-
+    - name: compileReleaseSource
+      run: ./gradlew compileReleaseSource
     - name: ls build
       run: ls  -l build
     - name: ls app
       run: ls  -l app
     - name: ls
       run: ls   -l  app/build/outputs/apk/
+    - name: ls
+      run: ls   -l  build/outpus/apk 
      
