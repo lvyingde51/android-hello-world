@@ -33,8 +33,7 @@ jobs:
       run: ls  -l app
     - name: ls
       run: ls   -l  app/build/outputs/apk/
-    - name: ls
-      run: ls   -l  build/outputs/apk
+
     - name: ls
       run: ls   -l  /app/build/outputs/apk/debug
     - name: ls
