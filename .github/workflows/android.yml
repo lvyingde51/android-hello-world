@@ -26,8 +26,10 @@ jobs:
     - name: ls
       run: ls -l
 
-    - name: ls
-      run: ls   build
+    - name: ls build
+      run: ls  -l build
+    - name: ls app
+      run: ls  -l app
     - name: ls
       run: ls    app/build/outputs/apk/
      
