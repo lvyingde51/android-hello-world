@@ -29,3 +29,6 @@ jobs:
       run: ./gradlew assembleRelease –offline
     - name: ls
       run: ls   build
+    - name: ls
+      run: ls    app/build/outputs/apk/
+     
